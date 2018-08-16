@@ -29,3 +29,8 @@ required = ["github.com/ashwanthkumar/slack-go-webhook", "github.com/labstack/ec
 [prune]
   go-tests = true
   unused-packages = true
+
+[metadata.heroku]
+  root-package = "github.com/mrtc0/csp-server"
+  go-version = "1.10.3"
+  install = [ "./..." ]
